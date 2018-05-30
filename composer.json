@@ -1,0 +1,23 @@
+{
+    "name": "prt/prt",
+    "description": "Package for prt",
+    "authors": [
+        {
+            "name": "Vincent22",
+            "email": "vincent.toudic@smartmoov.solutions"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "prt\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Providers\\PrtServiceProvider"
+            ]
+        }
+    }
+}
