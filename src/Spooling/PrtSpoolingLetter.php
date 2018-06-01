@@ -7,7 +7,7 @@
  * PHP Version 7.1
  */
 
-namespace App\Models\Spooling;
+namespace prt\Spooling;
 
 use App\Exceptions\PrtException;
 use App\Models\Spool;

@@ -22,7 +22,7 @@
  * @link     https://resilier.online
  */
 
-namespace App\Models\Spooling;
+namespace prt\Spooling;
 
 use App\Exceptions\PrtException;
 use App\Models\Letter;

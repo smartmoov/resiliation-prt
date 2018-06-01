@@ -6,7 +6,7 @@
  * Time: 11:05
  */
 
-namespace App\Models\Spooling;
+namespace prt\Spooling;
 
 use App\Models\Spool;
 
