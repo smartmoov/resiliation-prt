@@ -28,7 +28,7 @@ use App\Exceptions\PrtException;
 use App\Models\Letter;
 use App\Models\Spool;
 use App\Repositories\SpoolRepository;
-use App\WebServices\PrtServices;
+use prt\WebServices\PrtServices;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
 

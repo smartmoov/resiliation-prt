@@ -11,7 +11,7 @@ namespace prt\Spooling;
 
 use App\Exceptions\PrtException;
 use App\Models\Spool;
-use App\WebServices\PrtServices;
+use prt\WebServices\PrtServices;
 use Illuminate\Support\Facades\Log;
 
 /**
