@@ -6,7 +6,7 @@
  * Time: 09:30
  */
 
-namespace App\Models\Router;
+namespace prt;
 
 use App\Events\Accepted;
 use App\Events\Printing;
