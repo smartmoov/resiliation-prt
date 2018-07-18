@@ -126,16 +126,16 @@ class Prt extends Router
     {
         switch ($spool['status']) {
             case Tracking::ACCEPTED:
-                event(new Accepted($spool['date']));
+                event(new Accepted($spool['statusDate']));
                 break;
             case Tracking::ROUTED:
-                event(new Routed($spool['date']));
+                event(new Routed($spool['statusDate']));
                 break;
             case Tracking::PRINTING:
-                event(new Printing($spool['date']));
+                event(new Printing($spool['statusDate']));
                 break;
             case Tracking::DELIVERED:
-                event(new Sent($spool['date']));
+                event(new Sent($spool['statusDate']));
                 break;
         }
     }
