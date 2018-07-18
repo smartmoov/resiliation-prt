@@ -58,8 +58,8 @@ abstract class PrtServices
     public function __construct()
     {
         $this->authHeader = array(
-            'Username' => getenv('PRT_USERNAME_TEST'),
-            'Password' => getenv('PRT_PASSWORD_TEST')
+            'Username' => getenv('PRT_USERNAME'),
+            'Password' => getenv('PRT_PASSWORD')
         );
         $this->soapClient = new \SoapClient(self::WSDL_FILE, array('uri' => self::NAMESPACE, 'trace' => 1));
 

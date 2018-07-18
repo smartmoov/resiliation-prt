@@ -64,7 +64,7 @@ class Prt extends Router
     {
         $prt = new PrtSpoolingLetter();
         try {
-            $prt->configuration($spool->xml, $spool->getFilenameXml());
+            $prt->configuration($spool->link_xml, $spool->getFilenameXml());
             $spool->spool_prt = $prt->sendDocument($spool);
             $spool->save();
         } catch (\Exception $e) {
